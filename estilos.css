@@ -1,0 +1,110 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  body {
+    font-family: 'Open Sans', sans-serif; }
+  
+  a {
+    color: inherit;
+    text-decoration: none; }
+    a:hover {
+      text-decoration: none; }
+  
+  ul {
+    padding: 0; }
+  
+  li {
+    list-style: none; }
+  
+  .header {
+    height: 100px; }
+    .header__menu {
+      height: 40px; }
+      .header__menu-li {
+        transition: all .2s ease-in-out;
+        padding: 5px 20px; }
+        .header__menu-li--active {
+          background-color: #a4ebf3; }
+        .header__menu-li:hover {
+          background-color: #a4ebf3;
+          color: #aaaaaa; }
+  
+  .container {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden; }
+  
+  .fullWidth {
+    width: 100%; }
+  
+  /* flex */
+  .flex {
+    display: flex; }
+  
+  .justifyCenter {
+    justify-content: center; }
+  
+  .flexRow {
+    flex-direction: row; }
+  
+  .flexColumn {
+    flex-direction: column; }
+  
+  .alignCenter {
+    align-content: center; }
+  
+  .itemsCenter {
+    align-items: center; }
+  
+  .spaceBetween {
+    justify-content: space-between; }
+  
+  .bannerUno {
+    height: 150px;
+    background-color: #f4f9f9;
+    padding: 3rem; }
+    .bannerUno__text {
+      font-size: 14px; }
+  
+  .card__wrapper {
+    padding: 2rem; }
+  
+  .card__item {
+    border: 1px solid #323232;
+    padding: 3rem;
+    transition: all .2s ease-in-out; }
+    .card__item:hover {
+      background-color: #a4ebf3; }
+  
+  .form {
+    max-width: 600px; }
+    .form__input {
+      margin-bottom: 20px; }
+      .form__input--group {
+        width: 100%; }
+        .form__input--group input {
+          width: 100%;
+          padding: 1rem .5rem;
+          border-bottom: 1px solid #a4ebf3;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px; }
+          .form__input--group input:focus {
+            border: 1px solid #a4ebf3 !important; }
+        .form__input--group textarea {
+          width: 100%;
+          margin-bottom: 20px;
+          display: block; }
+    .form__label {
+      display: block;
+      margin-bottom: 10px; }
+    .form .button {
+      padding: 1rem 2rem;
+      cursor: pointer; }
+      .form .button__primary {
+        background-color: #a4ebf3; }
+        .form .button__primary--outline {
+          border: 1px solid #a4ebf3; }
